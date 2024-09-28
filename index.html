@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Side of the Metaverse</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #0a0a0a, #1c1c1c);
+            color: #e0e0e0;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: #00ffcc;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+            position: relative;
+        }
+        nav ul li a {
+            color: #00ffcc;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav ul li a:hover {
+            color: #fff;
+            transform: scale(1.1);
+        }
+        main {
+            padding: 40px 20px;
+        }
+        section {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+	text-decoration: none;   
+         border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+	section a {
+	text-decoration: none;
+            color: #00ffcc; 
+	}
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: #00ffcc;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+	 form {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	    text-decoration: none;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Side of the Metaverse</h1>
+    </header>
+    <main>
+
+       <section>
+            <h2>Welcome to my home in the metaverse</h2>
+            <p>This is a place where you can find my creative projects, links to my online profiles, and other fun things. It may look empty here right now, but stay tuned for whats to come</p>
+        </section>
+<section>
+            <h2>Contact</h2>
+            <p>Find me at....</p>
+<p>Twitter: <a href="https://x.com/iamseanunrau">@iamseanunrau</a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#402d39332924252f263428252d253421362532332500272d21292c6e232f2d"><span class="__cf_email__" data-cfemail="e984909a808d8c868f9d818c848c9d889f8c9b9a8ca98e84888085c78a8684">[email&#160;protected]</span></a>
+
+<!--			<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form> -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        // Collect form data
+        const formData = new FormData(this);
+        
+        // Send the email using your preferred method here
+        // For example, you can use fetch to submit to a backend service
+        alert('Message sent!'); // Placeholder alert
+
+        // Reset the form
+        this.reset();
+    });
+</script>
+
+        </section>
+    </main> 
+    <footer>
+        <p>&copy; 2024 My Side of the Metaverse. All rights reserved.</p>
+    </footer> 
+</body>
+</html>
